@@ -8,8 +8,8 @@ while n>0:
     digit = n%10
     m = 10*m + digit
     n //= 10
-
+    
 if m == n:
     print(m, "is a palindrome number")
 else:
-    print(m, "is not a palindrom number")
+    print(m, "is not a palindrome number")
