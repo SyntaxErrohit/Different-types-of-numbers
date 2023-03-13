@@ -1,13 +1,13 @@
 n = int(input("Enter number: "))
 copy = n
-m = 0
+rev = 0
 
 while n>0:
     digit = n%10
-    m = 10*m + digit
+    rev = 10*rev + digit
     n //= 10
 
-if copy == m:
+if copy == rev:
     print(copy, "is a palindrome number")
 else:
     print(copy, "is not a palindrome number")
